@@ -1,0 +1,189 @@
+.btn1{
+    font-size: 1em;
+    color: #fff;
+    background: #353057;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    margin-left: 10px;
+}
+
+.Categories{
+    padding: 100px;
+}
+.row{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.row.col50{
+    position: relative;
+    width: 48%;
+    justify-content: center;
+    align-items: center;
+}
+.row .col50 h2{
+    margin-bottom: 20px;
+}
+.titre-texte{
+    color: #000;
+    font-size: 2em;
+    font-weight: 300px;
+    text-transform: capitalize;
+}
+.titre-texte span{
+    color: #1b0057;
+    font-size: 1.5em;
+    font-weight: 700px;
+
+}
+.row .col50 img{
+    height: 450px;
+    width: 600px;
+    position:relative;
+}
+
+.titre{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Categories{
+    margin-top: -100px;
+}
+.Categories .contenu{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;  
+}
+.Categories .contenu .box{
+    width: 350px;
+    margin: 20px;
+    border: 20px solid #fff;
+    box-shadow: 20px 15px 35px rgba(0, 0, 0, 0.8);
+}
+.Categories .contenu .box .inbox{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.Categories .contenu .box .inbox img{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.Categories .contenu .box .text{
+    text-align: center;
+    font-weight: 300px;
+    color: #111;
+}
+.Categories .contenu .box .text h3{
+    font-weight: 400;
+}
+.Partenaire{
+    margin-top:-100px;
+}
+.Partenaire .contenu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
+.Partenaire .contenu .box{
+    width: 250px;
+    margin: 15px;
+}
+.Partenaire .contenu .box img{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+
+}
+.Partenaire .contenu .box h3{
+    color: #111;
+    font-weight: 400;
+    text-align: center;
+}
+.contact{
+   height: 700px;
+    background-image: url("./assets/vv.webp");
+    background-size: cover;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.8);
+    width: 100%;
+    background-position: unset;
+}
+.contactform{
+    padding: 75px 50px;
+    background: #fff;
+    box-shadow: 5px 15px 50px rgba(0, 0, 0, 0.8);
+    max-width: 500px;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+}
+.contactform .inputboite{
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.contactform h3{
+    color: #111;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+.contactform .inputboite input,
+.contactform .inputboite textarea{
+    width: 100%;
+    border: 1px solid #555;
+    padding: 10px;
+    color: #111;
+    outline: none;
+    font-size: 16px;
+    font-weight: 300;
+    resize: none;
+}
+.contactform .inputboite input[type="submit"]{
+    font-size: 1em;
+    font-weight: 700;
+    color: #fff;
+    background:  #350a92;
+    display: inline-block;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    outline: none;
+    border: none;
+    transition: 0.5px;
+    max-width: 120px;
+    align-items: center;
+    justify-content: center;
+
+}
+.contact .titre-text span{
+    color:  #1b0057;;
+    font-size: 2em;
+}
+.contact .cl{
+    color: #fa8406e5;
+}
+.contactform .inputboite input[type="submit"]:hover{
+    background:#1b0057;
+    color:white;
+}
+
